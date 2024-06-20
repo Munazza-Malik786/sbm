@@ -1,0 +1,50 @@
+    /* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #ffff;
+  margin-bottom: 40px;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+
+}
+
+.carousel-nav .carousel-cell {
+  height: 80px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* .carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  line-height: 80px;
+} */
+
+.carousel-nav .carousel-cell.is-nav-selected {
+  background: no;
+}
+
+.carousel-nav img{
+    /* height: 80px;
+  width: 100px; */
+ }
+.carousel-nav .flickity-slider{
+    /* left: 10px; */
+     transform: translateX(0) !important;
+ }
+ .carousel-nav .flickity-prev-next-button {
+    display: none;
+}
+.carousel-nav{
+    background-color: #ffff !important;
+}
+.flickity-page-dots {
+    display: none;
+}

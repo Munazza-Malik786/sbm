@@ -1,0 +1,149 @@
+/* ===hero start=== */
+
+
+.hero-bg-1 {
+    background-image: url('../img/bg/bg-1');
+
+}
+
+.hero-bg-2 {
+    background-image: url('../img/bg/bg-2');
+
+}
+
+.hero-bg-3 {
+    background-image: url('../img/bg/bg-3');
+
+}
+
+.hero-bg-4 {
+    background-image: url('../img/bg/bg-4');
+
+}
+
+.hero-bg-5 {
+    background-image: url('../img/bg/bg-5.avif');
+
+}
+
+/* ===projects==== */
+.projects .project-card {
+    color: #012970 !important;
+}
+
+.projects .project-card:hover {
+    color: #42a5f5 !important;
+    cursor: pointer;
+}
+
+.projects .project-card:hover h4 {
+    color: #14305d !important;
+}
+
+.projects .project-card h4 {
+    color: #42a5f5 !important;
+}
+.projects .card-img-1{
+    object-fit: cover;
+    height: 270px;
+}
+.projects .card-img-2{
+    object-fit: cover;
+    height: auto;
+}
+/* === module=== */
+.module .bg-img {
+    background-image: url('../img/module-bg-img.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 80vh; */
+}
+
+.module .bg-clr {
+    background-color: #14305ddb;
+    text-align: center;
+    /* height: 50vh; */
+    /* width: 100%; */
+}
+
+.module .btn {
+    background-color: #14305d;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0 !important;
+}
+
+/* .module .btn:hover{
+    background-color: #fff;
+    color: #42a5f5;
+} */
+.module .row {
+    padding: 140px;
+}
+
+.module-card:hover {
+    background-color: #14305d !important;
+    cursor: pointer;
+}
+
+.module-card:hover .btn {
+    background-color: #fff;
+    background-color: #42a5f5;
+}
+
+.module-card:hover h2 {
+    color: #42a5f5 !important;
+}
+
+/* === module end=== */
+/* ===details=== */
+.join .bg-img {
+    background-image: url('../img/bg-img/customer_feedback_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 80vh; */
+}
+/* .header{
+    background-color: #42a5f500;
+} */
+.join .card {
+    border-radius: 21px;
+    border: 4px solid #012970;
+}
+
+.join .card:hover {
+    background-color: #42a5f5 !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .join .card-2:hover {
+    background-color: #fff !important;
+    color: #012970 !important;
+} */
+@media screen and(width:1200px) {
+    .join img{
+        display: none !important;
+    }
+}
+/* ----join end----- */
+.partner header:hover{
+    background-color: #14305d;
+    color: #fff !important;
+}
+marquee {
+    height: 120px;
+}
+
+marquee img {
+    width: 75%;
+    /* height: 110px; */
+}
+
+marquee .img {
+    padding-right: 200px;
+}
+
+/* ===details end=== */

@@ -1,0 +1,37 @@
+.hero-bg-img {
+    background-image: url('../img/about/about-bg-3.png');
+}
+
+.br-l {
+    border-left: 5px solid #012970;
+}
+
+.bank-details .bg-img {
+    background-image: url('../img/bg-img/hands.jpg');
+    background-size: cover;
+    background-clip: content-box;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+
+}
+
+.bank-details .bg-clr {
+    background-color: #012970c7 !important;
+    /* height: 100vh; */
+    display: block;
+}
+
+.bank-details .row {
+    background-color: #ffffff42;
+    border-radius: 12px;
+    padding: 0px 71px;
+}
+
+.bank-details .row:hover {
+    background-color: #42a5f599 !important;
+}
+
+.bank-details .container {
+    padding: 50px 12px;
+}

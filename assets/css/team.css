@@ -1,0 +1,56 @@
+
+/* ==hero=== */
+.hero-bg-img{
+    background-image: url('../img/about/about-bg-3.png');
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}   
+.hero-bg-clr{
+    background-color: #00000080;
+    height: 40vh;
+    width: 100%;
+}
+.team .member {
+    border-radius: 5px;
+}
+
+.team .member .member-img {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.team img {
+    height: 420px;
+    object-fit: contain;
+}
+
+.team .member-info:hover .dark-primary {
+    color: #42a5f5 !important;
+
+}
+
+.team .member-info:hover h4 {
+    color: #012970 !important;
+}
+
+.team .member-info:hover {
+    color: #012970 !important;
+    cursor: pointer;
+}
+/* ==join=== */
+.voul .bg-img{
+    background-image: url('../img/bg-img/bg-3.png');
+}
+.join-bg-img{
+    background-image: url('../img/about/about-bg-3.png');
+    background-position:  right;
+    /* height: 60vh; */
+}
+/* ===contact=== */
+.contact .bg-img{
+    background-image: url('../img/bg-img/customer_feedback_bg.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+}

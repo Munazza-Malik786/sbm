@@ -1,0 +1,31 @@
+/* ==hero== */
+.bg-primary{
+    background-color: #42a5f5 !important;
+}
+.hero-bg-img{
+    background-image: url('../img/about/about-bg-1.png');
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}   
+.hero-bg-clr{
+    background-color: #00000080;
+    height: 50vh;
+    width: 100%;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #gallery a {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  #gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
